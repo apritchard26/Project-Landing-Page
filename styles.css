@@ -52,7 +52,16 @@ body {
 }
 .main-third {
     display: flex;
-    
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .four-cats {
@@ -80,10 +89,9 @@ ul {
     gap: 16px;
 }
 
-p {
+.main-top, .main-second p {
     font-size: 18px;
     font-weight: 400;
-    
 }
 
 button {
@@ -94,4 +102,10 @@ button {
     font-size: 12px;
     font-weight: 700;
     width: 100px;
+}
+
+.author {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
