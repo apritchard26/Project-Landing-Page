@@ -72,11 +72,24 @@ body {
 .main-fourth {
     display: flex;
     justify-content: center;
+    padding: 32px;
 }
 
 .subsection {
     display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px;
+    color: #f9faf8;
+    gap: 16px;
 }
+
+
+.subsect-text h3 {
+    padding: 0;
+    margin: 0;
+}
+
 .footer {
     display: flex;
     justify-content: center;
