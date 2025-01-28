@@ -12,9 +12,21 @@ body {
     justify-content: space-between;
     padding: 0px 16px ;
     margin: 0;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    /*box-shadow: 0 2px 4px #1F2937;*/
     
 }
-
+header {
+    margin: 0; /* Remove margin around the header */
+    padding: 0; /* Remove any padding */
+  }
+  
+  p {
+    margin: 0; /* Remove default paragraph margin */
+    padding: 0; /* Remove any padding */
+  }
 .main-top {
     display: flex;
     background-color: #1F2937;
@@ -30,7 +42,6 @@ body {
     width: 500px;
     display: flex;
     flex-direction: column;
-
 }
 .main-second {
     display: flex;
@@ -53,7 +64,7 @@ body {
 .main-third {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 60px;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
@@ -72,7 +83,7 @@ body {
 .main-fourth {
     display: flex;
     justify-content: center;
-    padding: 32px;
+    padding: 60px;
 }
 
 .subsection {
@@ -93,6 +104,9 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+    padding: 8px;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
 
 ul {
@@ -111,10 +125,12 @@ button {
     background-color: #3882F6;
     color: #f9faf8;
     padding: 8px;
+    margin: 10px 0px;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 700;
     width: 100px;
+    border-color: #f9faf8;
 }
 
 .author {
